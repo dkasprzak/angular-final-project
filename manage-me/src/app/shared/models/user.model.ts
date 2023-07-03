@@ -3,9 +3,6 @@ export interface User {
     firstName: string;
     lastName: string;
     name: string;
-    login: string;
-    password: string;
-    authorizationToken: string;
     role: {
       name: string;
     };
